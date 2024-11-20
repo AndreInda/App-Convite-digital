@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 
 const fonte = Inter({
-  subsets:["latim"],
+  subsets:["latin"],
 })
 
 export const metadata: Metadata = {
