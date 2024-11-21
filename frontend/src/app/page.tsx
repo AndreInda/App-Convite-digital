@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return(
-    <Pagina>
+    <Pagina className="w-full">
       <div>Inicio</div>
     </Pagina>
   );
