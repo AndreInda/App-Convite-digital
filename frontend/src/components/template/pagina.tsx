@@ -1,4 +1,5 @@
 import { ReactNode } from "react"
+import Logo from "./logo";
  
 
 export interface PaginaProps{
@@ -13,6 +14,7 @@ export default function Pagina(props: PaginaProps){
             bg-[url('/background.png')] bg-cover
         "
         >
+            <Logo />
             <main className={props.className}>
                 {props.children}
             </main>
