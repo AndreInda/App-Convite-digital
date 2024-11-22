@@ -1,4 +1,4 @@
 import Alias from "./Alias";
-import Id from "./Id";
+import Id from "./id";
 
 export { Alias, Id };
